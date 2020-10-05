@@ -1,4 +1,4 @@
-// const car = require('./files/lib2');
+const car = require('./files/lib2');
 const {
   mclaren,
   porsche,
@@ -18,7 +18,7 @@ console.log('Audi: ', audi);
 console.log('BMW: ', bmw);
 console.log('Maserati: ', maserati);
 console.log('Test: ', test);
-// console.log('Car: ', car);
+console.log('Car: ', car);
 
 // Commenting the car references above and trying:
 // const { car } = require('./files/lib2');
