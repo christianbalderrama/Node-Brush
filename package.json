@@ -5,4 +5,8 @@
 	},
 	"license": "GNU Affero General Public License v3.0",
 	"author": "Christian Balderrama <0christianbalderrama@gmail.com",
+	"devDependencies": {
+		"eslint": "^7.11.0",
+		"eslint-config-google": "^0.14.0"
+	}
 }
