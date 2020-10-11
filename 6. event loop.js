@@ -2,7 +2,7 @@ let foo = null;
 const bar = () => console.log('bar');
 const baz = () => console.log('baz');
 
-/*
+/**
  * Normal Event Loop that executes things line by line.
 */
 // foo = () => {
@@ -13,7 +13,7 @@ const baz = () => console.log('baz');
 //
 // foo();
 
-/*
+/**
  * Event Loop + Message Queue
  * The `setTimeOut()` function is part of a `Message Queue`
  * and just like `Event Loop` it also have it's own stack.
@@ -36,7 +36,7 @@ const baz = () => console.log('baz');
 //
 // foo();
 
-/*
+/**
  * Event Loop + Message Queue + ES6 Job Queue (Promises)
  *
  * Main reason why `Promises` are used is because the `Message Queue`

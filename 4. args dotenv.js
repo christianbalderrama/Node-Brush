@@ -1,4 +1,4 @@
-/*
+/**
  * Requiring `dotenv` immediately is the first thing you need to do before
  * other things happen to your app.
  *

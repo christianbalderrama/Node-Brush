@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 const env = process.env.NODE_ENV || 'development';
-/*
+/**
  * Notes:
  * Running the file will result to variables using their defaults:
  * Where => PORT = 3000, NODE_ENV = 'development'
