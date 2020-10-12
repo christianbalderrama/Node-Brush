@@ -9,6 +9,7 @@ const env = process.env.NODE_ENV || 'development';
  *
  * Proper to provide the necessary values should be:
  * `PORT=9999 NODE_ENV=production node file.js`
+ *
  * This assigns the values to `process.env` because `process.env` is an object
  * and can be accessed when `process` is started.
  *

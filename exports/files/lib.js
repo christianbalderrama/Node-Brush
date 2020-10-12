@@ -10,7 +10,11 @@ const lamborghini = {
 
 const bmw = {
   country: 'Germany',
-  founder: ['Rapp Motorenwerke', 'Bayerische Flugzeugwerke', 'Fahrzeugfabrik Eisenach'],
+  founder: [
+    'Rapp Motorenwerke',
+    'Bayerische Flugzeugwerke',
+    'Fahrzeugfabrik Eisenach',
+  ],
 };
 
 const audi = {
@@ -20,7 +24,7 @@ const audi = {
 
 const maserati = {
   country: 'Italy',
-  founder: 'Alfieri Maserati'
+  founder: 'Alfieri Maserati',
 };
 
 const mclaren = {
@@ -30,7 +34,7 @@ const mclaren = {
 
 const porsche = {
   country: 'Germany',
-  founder: 'Ferdinand Porsche'
+  founder: 'Ferdinand Porsche',
 };
 
 /*
@@ -54,7 +58,7 @@ module.exports = {
   bmw,
   audi,
   maserati,
-  test: {}
+  test: {},
 };
 
 // exports.mclaren = mclaren;
